@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curriculum</title>
+    <style>
+        h2 {
+            border: double 6px red ;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body id="cuerpo" >
+    
+    <img src="imags/foto.jpg" alt="Foto Eze" width="100px">
+    <h1 onclick="preguntarNombreyApellido();">CURRICULUM</h1>
+<div id="datosPersonales">
+    <h2 class="textoGrande" id="datos" onclick="ponerEnMayusculas();">Datos Personales:</h2>
+
+    <p>
+        Alumno:<strong class="textoGrande" >Ezequiel Porchietto</strong><br>
+        Curso:<strong>1er año</strong><br>
+        Carrera:<strong>Tec. Sup. en Desorrallo de Software</strong>
+    </p>
+</div>
+    
+     <details>
+        <summary>Ocupación</summary
+        <p>Estudiante de Desarrollo de Software</p>   
+    </details>
+    
+    <div id="educacion">
+
+    <h2>Educación:</h2>
+    
+    <ul>
+        <li>Esc. Primaria<em class="textoGrande"> nº 6415</em></li>
+        <li>Esc. Secundaria<em> Nacional de Comercio</em></li>
+        <li>Terciario<em class="textoGrande"> ISP Nº20</em></li>
+    </ul> 
+    <details>
+        <summary>Ubicación</summary>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.901806363663!2d-60.5951909852698!3d-30.77733527270973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944ad7d47863d2e3%3A0xbcc09bbc1466c571!2s%22Senador%20N%C3%A9stor%20Juan%20Zamaro%22!5e0!3m2!1ses!2sar!4v1653258804184!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </details>
+</div>
+<script type="text/javascript" src="js/codigo.js">
+    //var nombre = prompt("Ingrese tu nombre");
+    //alert("Hola " + nombre)
+</script>
+<button onclick="ponercolorClaro();">MODO CLARO</button> 
+<button  onclick="ponercolorOscuro();">MODO OSCURO</button>
+</body>
+</html>

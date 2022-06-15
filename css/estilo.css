@@ -1,0 +1,38 @@
+img {border: solid 10px rgb(146, 146, 34);
+     margin: 20px;}
+img { backgroud-color: red;}
+* {color:blue;}
+h1 {border: 5px gray solid;}
+.textoGrande {font-size: 30px;
+              color:rgb(231, 16, 16); }
+ #datosPersonales {    
+                  background-color: rgb(86, 230, 218);
+                  border-radius: 20px;      
+}
+h2.textoGrande{background-color: antiquewhite;
+}
+details{background-color: darksalmon;
+     padding: 10px;
+     border-radius: 6px;
+     margin: 10px;
+     font-size: 30px;
+}
+summary{font-size: 20px;
+}
+summary{list-style: none;}
+summary::before{content: " + ";
+                padding-right: 10px;}
+details[open] summary::before{content: " - ";}
+
+/*#educacion {background-image: url("../Imags/imfon2.jpg");
+       border-radius: 30px;
+       padding: 40px 20px 10px;
+}              
+/*#datosPersonales p {background-image: url("../Imags/playa3.jpg") ;
+     background-position: right;
+     border-radius: 30px;
+     color: rgb(240, 63, 9) ;
+     padding-left: 20px;
+          }
+
+        
